@@ -24,7 +24,7 @@ public class MergeSort
         }
         mergeSort(array, 0, array.length - 1);
         System.out.println("**********************************************************************");
-        System.out.print("### The array is Sorted by Quick Sort: [ ");
+        System.out.print("### The array is Sorted by Merge Sort: [ ");
         for (int i = 0; i < array.length; i++) {
             Comparable element = array[i];
             System.out.print(element + ", ");
