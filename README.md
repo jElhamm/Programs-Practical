@@ -7,14 +7,14 @@
 
 ## Introduction
 
-      In this repository, you will find a diverse range of programming projects created by [Elham Jafari]. 
-      These projects cover multiple programming languages and Each has its own dedicated folder within the repository.
-      Each project is implemented using a specific programming language.
+     In this repository, you will find a diverse range of programming projects created by [Elham Jafari]. 
+     These projects cover multiple programming languages and Each has its own dedicated folder within the repository.
+     Each project is implemented using a specific programming language.
 
 ## Description
 
-      The primary goal of this repository is to demonstrate my skills and experience as a programmer.
-      Feel free to explore the projects, and provide any feedback or suggestions you may have.
+     The primary goal of this repository is to demonstrate my skills and experience as a programmer.
+     Feel free to explore the projects, and provide any feedback or suggestions you may have.
 
 ## Installation
 
