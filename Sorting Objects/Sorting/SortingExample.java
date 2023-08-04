@@ -16,7 +16,7 @@ public class SortingExample
             System.out.print(" ==>   Enter the number of array elements: ");
             int userInput = cin.nextInt();
             Comparable[] array = new Comparable[userInput];
-            System.out.print(" ==>   Please Enter the items you want to sort:\n      (you can sort non-decimal numbers, decimal numbers, and strings): " );
+            System.out.print(" ==>   Please Enter the items you want to sort:\n      (you can sort non-decimal numbers, decimal numbers, and strings):  " );
 
             for (int i=0; i < userInput; i++) {
                 if (cin.hasNextInt()) {
