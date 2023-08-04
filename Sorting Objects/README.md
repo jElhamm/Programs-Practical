@@ -20,7 +20,7 @@ Sorting algorithms used include:
 
 ## Usage
 
-    To use this program, follow these steps:
+   To use this program, follow these steps:
 
    1. Run the SortingExample class.
    2. You will be presented with a menu to choose the sorting algorithm.
