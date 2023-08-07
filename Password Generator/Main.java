@@ -1,4 +1,6 @@
-package com.password_generator;
+/**
+ * You can use this program to generate random passwords.
+ **/
 
 import java.util.Scanner;
 import java.security.SecureRandom;
