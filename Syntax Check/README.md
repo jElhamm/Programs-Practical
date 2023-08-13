@@ -4,12 +4,12 @@
 
 ## Design Pattern Used: (Factory Pattern)
 
-    The Factory pattern is used in this program to create objects of different lexer classes based on the file
-    extension. 
-    It provides an interface for creating objects, but allows subclasses to decide which class to  
-    instantiate.
-    In this case, the LexerFactory class creates lexer objects based on the file extension 
-    provided.
+   The Factory pattern is used in this program to create objects of different lexer classes based on the file
+   extension. 
+   It provides an interface for creating objects, but allows subclasses to decide which class to  
+   instantiate.
+   In this case, the LexerFactory class creates lexer objects based on the file extension 
+   provided.
 
 ## Supported Languages
 
@@ -30,11 +30,9 @@
 
    1. Run the program.
    2. Enter the path of the file you want to check the syntax for. The file path should include the extension (e.g., path/to/your/file.py, .java, .cpp, .c, .cs, .css, .scss, .html, .php, .go, .rb). 
-      
    3. The program will check if the file type is supported. If not, an error message will be displayed.
    4. If the file type is supported, the program will attempt to read the file and parse the code using the 
     appropriate lexer for the file extension.
-
    5. If the syntax is correct, a success message will be displayed.
    6. If there is a syntax error, an error message will be displayed along with the list of errors and the     
     specific line of code where the error occurred.
