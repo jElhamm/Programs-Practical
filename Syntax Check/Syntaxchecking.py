@@ -1,44 +1,62 @@
+# The following program has the ability to check codes written in different languages.
+# It should be noted that the (Factory pattern design) was used for the implementation.
+
+
 import ast
 from pygments import highlight
-from pygments.lexers import PythonLexer, JavaLexer, CppLexer, CLexer, CSharpLexer, GoLexer, RubyLexer
 from pygments.formatters import TerminalFormatter
+from pygments.lexers import PythonLexer, JavaLexer, CppLexer, CLexer, GoLexer, RubyLexer
 
-def isSupportedFileType(filePath):
-    supportedExtensions = ['.py', '.java', '.cpp', '.c', '.go', '.rb']
-    if not any(filePath.endswith(ext) for ext in supportedExtensions):
-        print(f"Unsupported file type: {filePath}")
-        return False
-    return True
+class LexerFactory:
+    @staticmethod
+    def create_lexer(fileExtension):
+        if fileExtension == '.py':
+            return PythonLexer()
+        elif fileExtension == '.java':
+            return JavaLexer()
+        elif fileExtension == '.cpp':
+            return CppLexer()
+        elif fileExtension == '.c':
+            return CLexer()
+        elif fileExtension == '.go':
+            return GoLexer()
+        elif fileExtension == '.rb':
+            return RubyLexer()
+        else:
+            raise ValueError(f"Unsupported file type: {fileExtension}")
 
-def checkSyntax(filePath):
-    if not isSupportedFileType(filePath):
-        print("  ! That file type is not supported !  ")
-        return
-    try:
-        with open(filePath, 'r') as file:
-            sourceCode = file.read()
-            if filePath.endswith('.py'):
-                lexer = PythonLexer()
-            elif filePath.endswith('.java'):
-                lexer = JavaLexer()
-            elif filePath.endswith('.cpp'):
-                lexer = CppLexer()
-            elif filePath.endswith('.c'):
-                lexer = CLexer()
-            elif filePath.endswith('.go'):
-                lexer = GoLexer()
-            elif filePath.endswith('.rb'):  
-                lexer = RubyLexer()
+class SyntaxChecker:
+    @staticmethod
+    def isSupported_fileType(file_path):
+        supported_extensions = ['.py', '.java', '.cpp', '.c', '.go', '.rb']
+        if not any(file_path.endswith(ext) for ext in supported_extensions):
+            print(f"Unsupported file type: {file_path}")
+            return False
+        return True
 
-            ast.parse(sourceCode)
-            print("  ( Syntax is correct. )  ")
-    except SyntaxError as error:
-        print(f"\n  ! Syntax error in file ! : {filePath}")
-        print(f"***********************************************************************")
-        print("           List of errors:\n")
-        print("  " + error.msg)
-        print(f"  On line {error.lineno}: {highlight(sourceCode, lexer, TerminalFormatter())}")
+    @staticmethod
+    def check_syntax(file_path):
+        if not SyntaxChecker.isSupported_fileType(file_path):
+            print("  ! That file type is not supported !  ")
+            return
+        try:
+            with open(file_path, 'r') as file:
+                sourceCode = file.read()
+                fileExtension = file_path[file_path.rfind('.'):].lower()
+                lexer = LexerFactory.create_lexer(fileExtension)
+                ast.parse(sourceCode)
+                print("  ( Syntax is correct. )  ")
+        except SyntaxError as error:
+            print(f"\n  ! Syntax error in file ! : {file_path}")
+            print(f"***********************************************************************")
+            print("           List of errors:\n")
+            print("  " + error.msg)
+            print(f"  On line {error.lineno}: {highlight(sourceCode, lexer, TerminalFormatter())}")
 
-print("\n***********************************************************************")
-filePath = input("  Please enter the path of the File (path/to/your/file.py, .java, .cpp, .c, .go, .rb): ")
-checkSyntax(filePath)
+def main():
+    print("\n***********************************************************************")
+    file_path = input("  Please enter the path of the File (path/to/your/file.py, .java, .cpp, .c, .go, .rb): ")
+    SyntaxChecker.check_syntax(file_path)
+
+if __name__ == "__main__":
+    main()
