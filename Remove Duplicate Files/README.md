@@ -42,6 +42,6 @@
 
 ## Prerequisites
 
-   Java JDK (version 8 or above)
-   Java IDE (e.g., IntelliJ IDEA, Visual Studio Code) or a text editor
-   Git
+   * Java JDK (version 8 or above)
+   * Java IDE (e.g., IntelliJ IDEA, Visual Studio Code) or a text editor
+   * Git
