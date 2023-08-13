@@ -7,32 +7,32 @@ The project is a shape visualization tool that displays various geometric shapes
 ### Cone
 ![Cone](./cone.png)
 
-A cone is a three-dimensional geometric shape that tapers smoothly from a flat base to a point called the apex or vertex. It has one curved surface and a circular base.
+A Cone is a three-dimensional geometric shape that tapers smoothly from a flat base to a point called the apex or vertex. It has one curved surface and a circular base.
 
 ### Cube
 ![Cube](./cube.png)
 
-A cube is a three-dimensional geometric shape with six square faces of equal size. All angles in a cube are right angles, and all edges have the same length.
+A Cube is a three-dimensional geometric shape with six square faces of equal size. All angles in a cube are right angles, and all edges have the same length.
 
 ### Cuboid
 ![Cuboid](./cuboid.png)
 
-A cuboid, also known as a rectangular prism, is a three-dimensional geometric shape with six rectangular faces. It has opposite faces that are congruent and parallel.
+A Cuboid, also known as a rectangular prism, is a three-dimensional geometric shape with six rectangular faces. It has opposite faces that are congruent and parallel.
 
 ### Cylinder
 ![Cylinder](./cylinder.png)
 
-A cylinder is a three-dimensional geometric shape with two parallel circular bases connected by a curved surface. It has a constant radius and height.
+A Cylinder is a three-dimensional geometric shape with two parallel circular bases connected by a curved surface. It has a constant radius and height.
 
 ### Frustum
 ![Frustum](./frustum.png)
 
-A frustum is a three-dimensional geometric shape that resembles a cone with its top portion cut off. It has two parallel circular bases of different sizes connected by a curved surface.
+A Frustum is a three-dimensional geometric shape that resembles a cone with its top portion cut off. It has two parallel circular bases of different sizes connected by a curved surface.
 
 ### Sphere
 ![Sphere](./sphere.png)
 
-A sphere is a three-dimensional geometric shape that is perfectly round in shape. It has all points on its surface equidistant from its center.
+A Sphere is a three-dimensional geometric shape that is perfectly round in shape. It has all points on its surface equidistant from its center.
 
 ## How to Run
 

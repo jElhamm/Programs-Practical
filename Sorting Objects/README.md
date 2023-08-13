@@ -3,11 +3,11 @@
 This project performs the sorting process for each type of input by implementing different sorting algorithms and using the strategy design pattern. 
 Sorting algorithms used include:
 
-   * Merge Sort
-   * Quick Sort
-   * Bubble Sort
-   * Selection Sort
-   * Insertion Sort
+   * [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
+   * [Quick Sort](https://en.wikipedia.org/wiki/Quicksort)
+   * [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
+   * [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)
+   * [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
 
 ## Available Sorting Algorithms
 
@@ -29,6 +29,7 @@ Sorting algorithms used include:
    5. The program will sort the array using the selected sorting algorithm and display the sorted array.
 
 ## Strategy Design Pattern
-The sorting algorithms are implemented using the strategy design pattern. This pattern allows us to encapsulate each sorting algorithm into a separate class that implements the SortingStrategy interface. The SortingContext class uses the selected strategy to perform the sorting operation.
+The sorting algorithms are implemented using the strategy design pattern. This pattern allows us to encapsulate each sorting algorithm into a separate class that implements the SortingStrategy interface.
+The SortingContext class uses the selected strategy to perform the sorting operation.
 
 The SortingStrategy interface defines a generic method sort() that takes an array of comparable elements and performs the sorting operation. Each sorting algorithm class implements this interface and provides its own implementation of the sort() method.
