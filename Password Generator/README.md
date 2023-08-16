@@ -33,3 +33,8 @@
    It uses the random module to generate a random password based on the chosen criteria.
    To run the program, execute the "passwordGenerator.py" file.
 
+# References
+
+   [Password strength](https://en.wikipedia.org/wiki/Password_strength)
+   [Password generator (C++)](https://stackoverflow.com/questions/66963408/password-generator-c)
+   [Create a Random Password Generator using Python](https://www.geeksforgeeks.org/create-a-random-password-generator-using-python/)
