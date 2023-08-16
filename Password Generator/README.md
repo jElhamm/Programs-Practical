@@ -35,6 +35,6 @@
 
 # References
 
-   [Password strength](https://en.wikipedia.org/wiki/Password_strength)
-   [Password generator (C++)](https://stackoverflow.com/questions/66963408/password-generator-c)
-   [Create a Random Password Generator using Python](https://www.geeksforgeeks.org/create-a-random-password-generator-using-python/)
+   * [Password strength](https://en.wikipedia.org/wiki/Password_strength)
+   * [Password generator (C++)](https://stackoverflow.com/questions/66963408/password-generator-c)
+   * [Create a Random Password Generator using Python](https://www.geeksforgeeks.org/create-a-random-password-generator-using-python/)
