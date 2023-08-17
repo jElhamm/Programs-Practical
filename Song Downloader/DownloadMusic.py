@@ -8,7 +8,6 @@ import os
 import requests
 import urllib.parse
 import urllib.request
-from bs4 import BeautifulSoup
 
 class SongDownloader:
     def __init__(self, song_url, save_path):
@@ -46,3 +45,33 @@ class SongDownloader:
         elif not self.check_save_path():
             print(' ( ! Invalid save path. ! ) ')
 
+
+# # This part of the code is written as an example to show the output of the code.
+# According to your needs, you can change or delete this part.
+def  banner():
+    print("""
+        
+_________________________________________________________________________
+|                                                                       |
+|                       ***   Welcome   ***                             |
+|                                                                       |
+|            You can use this program to download your songs.           | 
+|           Enter the download link of a song, then specify an          |
+|          address on your computer to save the song file there.        |
+|        Then you can see your song downloaded at the same address.     |
+|                                                                       |
+|                       (: Hope you enjoy :)                            |
+|_______________________________________________________________________|
+    """) 
+
+def main():
+    banner()
+    song_url = input("===> Enter the song download link: ")
+    save_path = input("===> Enter the save path: ")
+    song_downloader = SongDownloader(song_url, save_path)
+    print("**************************************************************")
+    song_downloader.download_song()
+    print("**************************************************************\n")
+
+if __name__ == '__main__':
+    main()
