@@ -29,3 +29,20 @@ class SongDownloader:
             return True
         else:
             return False
+        
+    # Download and save the song
+    def download_song(self):
+        if self.check_song_url() and self.check_save_path():
+            response = requests.get(self.song_url)
+            file_name = self.song_url.split("/")[-1]             # Extract the file name from the song URL.
+            with open(file_name, "wb") as file:                  # Save the song content to a file.
+                file.write(response.content)
+
+            file_name = urllib.parse.unquote(file_name)
+            urllib.request.urlretrieve(self.song_url, self.save_path + '/' + urllib.parse.quote(file_name))
+            print('     The song has been downloaded and saved successfully!    ')
+        elif not self.check_song_url():
+            print(' ( ! Invalid song URL or the song does not exist at the specified URL. ! ) ')
+        elif not self.check_save_path():
+            print(' ( ! Invalid save path. ! ) ')
+
