@@ -5,6 +5,7 @@
    1. Place the .jar file in a directory of your choice.
    2. Open a command prompt or terminal window.
    3. Navigate to the directory where the .jar file is located using the 'cd' command. For example:
+
                          _______________________________
                         |                               |
                         |    cd C:\path\to\directory    |
@@ -15,6 +16,7 @@
                     command to navigate to the desired directory.
 
    4. Run the .jar file using the 'java -jar' command followed by the name of the .jar file. For example:
+   
                          _________________________________
                         |                                 |
                         |    java -jar RemoverFile.jar    |
