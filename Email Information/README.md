@@ -1,6 +1,6 @@
 # IMAP Email Reader
 
-   This is a Python script that allows you to read your Gmail emails using *IMAP* (Internet Message Access Protocol).
+   This is a Python script that allows you to read your Gmail emails using *IMAP* [(Internet Message Access Protocol)](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol).
    It provides the following functionalities:
 
    1. Connect to your Gmail Account
