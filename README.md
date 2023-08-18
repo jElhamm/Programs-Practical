@@ -1,27 +1,32 @@
-# Programming Projects Repository
+# Programming Projects
 
-   * Welcome to the my Programming Projects Repository! 
+   *                  Welcome to the my Programming Projects Repository! 
 
-      This repository contains a collection of programming projects. 
-      Each project is a standalone application and is stored in a separate directory within this repository.
+   This repository contains various programming projects implemented in different programming languages. 
+   Each project has its own set of instructions inside the project itself.
 
-## Introduction
+# Projects List
 
-     In this repository, you will find a diverse range of programming projects created by [Elham Jafari]. 
-     These projects cover multiple programming languages and Each has its own dedicated folder within the repository.
-     Each project is implemented using a specific programming language.
+   * [Color Detection](Color%20Detection)
+   * [Copy Directories](Copy%20Directories)
+   * [Drawing 3D Shapes](Drawing%203D%20Shapes)
+   * [Email Information](Email%20Information)
+   * [Hash Generator](Hash%20Generator)
+   * [Image Optimization](Image%20Optimization)
+   * [Music Player](Music%20Player)
+   * [Password Generator](Password%20Generator)
+   * [Remove Duplicate Files](Remove%20Duplicate%20Files)
+   * [Song Downloader](Song%20Downloader)
+   * [Sorting Objects](Sorting%20Objects)
+   * [Syntax Check](Syntax%20Check)
+   * [Text Information](Text%20Information) 
+   * [Tic Tac Toe](Tic%20Tac%20Toe)
 
-## Description
+# Getting Started
 
-     The primary goal of this repository is to demonstrate my skills and experience as a programmer.
-     Feel free to explore the projects, and provide any feedback or suggestions you may have.
+   To use any of the projects in this repository,
+   follow the instructions provided in each project's respective (README.md) file. 
+   This will guide you on how to run and utilize the project effectively.
 
-## Installation
-
-  To run any of the projects in this repository, follow these steps:
-
-   1. Clone this repository to your local machine.
-   2. Navigate to the specific project directory (e.g., `project1`).
-   3. To get started with any of the projects, follow the instructions provided in each project's folder.
-
-  Make sure you have the necessary dependencies and software installed before running the applications.
+   Please note that each project may require specific dependencies and configurations,
+   so make sure to read the instructions carefully before proceeding.
