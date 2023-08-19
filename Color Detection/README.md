@@ -45,7 +45,7 @@
         *                             white     |     Black     |     Red                                     *
         *                             Blue      |     Green     |    Yellow                                   *
         *                             Orange    |     Pink      |     Purple                                  *
-        *                             Brown     |     Gray      |     :)s                                     *
+        *                             Brown     |     Gray      |     :))                                     *
         *                                                                                                     *
         *******************************************************************************************************
 
@@ -55,8 +55,8 @@
 
 # References
 
-   [opencv-python](https://pypi.org/project/opencv-python/)
-   [numpy](https://pypi.org/project/numpy/)
-   [Detection of a specific color using OpenCV with Python](https://www.geeksforgeeks.org/detection-specific-colorblue-using-opencv-python/)
-   [OpenCV-Python Tutorials](https://docs.opencv.org/4.5.2/d6/d00/tutorial_py_root.html)
+   * [opencv-python](https://pypi.org/project/opencv-python/)
+   * [numpy](https://pypi.org/project/numpy/)
+   * [Detection of a specific color using OpenCV with Python](https://www.geeksforgeeks.org/detection-specific-colorblue-using-opencv-python/)
+   * [OpenCV-Python Tutorials](https://docs.opencv.org/4.5.2/d6/d00/tutorial_py_root.html)
    
