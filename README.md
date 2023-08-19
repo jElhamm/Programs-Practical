@@ -1,11 +1,11 @@
 # Programming Projects
 
-   *                  Welcome to the my Programming Projects Repository! 
+   * Welcome! 
 
    This repository contains various programming projects implemented in different programming languages. 
    Each project has its own set of instructions inside the project itself.
 
-# Projects List
+## Projects List
 
    * [Color Detection](Color%20Detection)
    * [Copy Directories](Copy%20Directories)
@@ -22,7 +22,7 @@
    * [Text Information](Text%20Information) 
    * [Tic Tac Toe](Tic%20Tac%20Toe)
 
-# Getting Started
+## Getting Started
 
    To use any of the projects in this repository,
    follow the instructions provided in each project's respective (README.md) file. 
