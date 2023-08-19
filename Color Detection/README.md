@@ -1,11 +1,11 @@
 # Color Detection in Images
-#  using OpenCV
+##  using OpenCV
 
    This program takes an image as input and detects the colors in the image. 
    The detection is based on HSV (Hue, Saturation, Value) color space. 
    This program uses the OpenCV library for computer vision tasks.
 
-# Installation
+## Installation
 
    * Install the OpenCV & NumPy libraries. You can install it using (pip):
 
@@ -22,7 +22,7 @@
                                 |    Orange    |     Pink      |    Purple    |             |
                                 -------------------------------------------------------------
 
-# Usage
+## Usage
 
    1. To use the program, you need to have an image file on which you want to detect colors.
    2. Run the program using the following command:
@@ -35,7 +35,7 @@
         * Enter the address of the image file when prompted. Make sure to provide the correct file path.
         * Once the program finishes processing, it will display the colors detected in the image.
 
-# Example Output
+## Example Output
 
         *******************************************************************************************************
         *                                      ***   Welcome   ***                                            *   
@@ -53,7 +53,7 @@
         ===> The colors present in the image are:  ['Red', 'Green', 'Blue']
         *******************************************************************************************************
 
-# References
+## References
 
    * [opencv-python](https://pypi.org/project/opencv-python/)
    * [numpy](https://pypi.org/project/numpy/)
